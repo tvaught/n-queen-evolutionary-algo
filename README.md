@@ -9,13 +9,13 @@ There are many methods in solving the N-Queen Problem but try to solve it using 
 ### This is how it would look like in Pseudocode
 ~~~
 Begin 
-      Initialize population with random member solutions
-      Evaluate Fitness each member
+      INITIALIZE population with random member solutions
+      EVALUATE Fitness level of each member
       Repeat until TERMINATE_CONDITION is true DO
               SELECT parents from popluation
               RECOMBINE pairs of parents 
               MUTATE the result offspring
-              Evaluate new candidates
+              EVALUATE new candidates
               SELECT members for new generation
       OD
 END
