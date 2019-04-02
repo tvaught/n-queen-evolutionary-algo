@@ -7,6 +7,7 @@ In the 8-queen problem we are given a regular chess board (8 by 8) and eight que
 There are many methods in solving the N-Queen Problem but try to solve it using EA. The basic principles of EA are based around Darwin's Theory of Evolution by natural selection. 
 
 ### This is how it would look like in Pseudocode
+~~~
 Begin 
       Initialize population with random member solutions
       Evaluate Fitness each member
@@ -18,6 +19,7 @@ Begin
               SELECT members for new generation
       OD
 END
+~~~
 
 ### Sources to look into:
 * AI 101: Intro to Evolutionary Algorithms - https://www.cs.vu.nl/~gusz/ecbook/Eiben-Smith-Intro2EC-Ch2.pdf
